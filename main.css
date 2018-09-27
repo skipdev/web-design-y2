@@ -1,0 +1,78 @@
+.blue {
+    background-color: #38cdff;
+}
+
+.pink {
+    background-color: #ff91e5;
+}
+
+.black {
+    background-color: black;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.margin {
+    margin: 1vh;
+}
+
+body {
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    flex-direction: column;
+    padding: 2vw;
+    width: 80vw;
+    height: 85vh;
+    margin-top: 2vh;
+}
+
+.top-section {
+    height: 20%;
+}
+
+.react-logo {
+    width: 13vw;
+    height: 16vh;
+    padding-left: 1.5vw;
+}
+
+.left-nav {
+    width: 20%;
+    height: 65vh;
+    justify-content: center;
+}
+
+.nav {
+    text-decoration: underline;
+    list-style: none;
+    text-align: center;
+    margin-left: -3vw;
+}
+
+li {
+    padding-top: 5vh;
+    font-size: 2em;
+}
+
+.section {
+    width: 80%;
+    height: 65vh;
+}
+
+a:link {color:black;}      /* unvisited link */
+a:visited {color:black;}   /* visited link */
+a:hover {color:white;}     /* mouse over link */
+a:active {color:white;}    /* selected link */
